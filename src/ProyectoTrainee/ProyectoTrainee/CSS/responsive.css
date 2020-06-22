@@ -1,6 +1,6 @@
-@media (max-width: 662px) {
 
- 
+@media (max-width: 662px) {
+	   
 	.menu_bar {
 		display:block;
 		width:100%;
@@ -137,7 +137,7 @@ display: none;
 	margin-right: 10px;
 }
     
-}
+
 .services-requisitos{
 	display: flex;
 	flex-direction: column;
@@ -213,4 +213,8 @@ display: none;
      margin:  auto; 
     
 }
+
+
+ }
+
   
