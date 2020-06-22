@@ -1,5 +1,7 @@
 
-@media (max-width: 662px) {
+ /* responsive */
+ 
+ @media (max-width: 662px) {
 	   
 	.menu_bar {
 		display:block;
