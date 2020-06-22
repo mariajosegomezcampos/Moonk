@@ -1,0 +1,515 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width:100%;
+}
+
+.logo-navbar{
+    width: 20%;
+}
+
+.logo-navbar img{
+    width: 250px;
+}
+.services-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+ 
+nav{
+    width: 50%;
+}
+
+nav  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  
+}
+
+nav > ul > li > a {
+   
+    color: rgb(99, 99, 99);
+    font-weight: 300;
+    font-size: 14px;
+    margin-right: 10px;
+   
+}
+
+nav  >ul > li:hover{
+  
+text-decoration: underline;
+cursor: pointer;
+}
+
+nav ul li .navbar-links{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #941B80;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  
+}
+.menu{
+    display: none;
+}
+.navbar-links:hover {
+    text-decoration: none;
+}
+.navbar-social-networks{
+    margin-right: 60px;
+}
+.navbar-social-networks a {
+   margin-right: 10px;
+}
+.navbar-social-networks a img{
+    width: 20px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.services-banner{
+    width: 100%;
+    height: 350px;
+    background-image: url(../Assets/FACT/headBanner-fact.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+.services-texto-banner{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 50%;
+    text-align: center;  
+}
+.services-texto-banner img{
+    margin-bottom: 35px;
+    width: 300px
+}
+
+ .sevices-main{
+   width: 90%;
+   margin: auto;
+   max-width: 1000px;
+   overflow: hidden;
+} 
+
+
+.sevices-main p{
+   
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 75px;
+    
+    
+}
+.services-main-text{
+    text-align: center;
+}
+
+.services-pasos{
+    max-width: 1000px;
+    margin: 55px auto;
+    text-align: center;
+}
+.services-pasos h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0px 0px 15px;
+    margin-bottom: 25px
+}
+.services-pasos p{
+    margin-bottom: 25px;
+}
+   
+.services-content-pasos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+}
+.img-pasos-factoring{
+    text-align: center;
+    margin: 0px 0px 15px;
+}
+
+.services-content-factoring{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    margin-right: 25px;
+}
+.services-content-factoring p{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.services-content-factoring img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
+    margin: 0px 15px 0px 0px;
+}
+.services-requisitos{
+    max-width: 800px;
+    margin: 55px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.services-requisitos img{
+    width: 350px;
+    height: 500px;
+    margin-right: 35px;
+}
+.services-requisitos-text{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 35px 0;
+}
+
+.services-requisitos-text p {
+    margin-bottom: 25px;
+    
+}
+.services-requisitos-text h3{
+    font-size: 42px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+/* Estilo acordion servicio */
+
+
+.services-accordion-titulo{
+    background-color: #E8E8E8;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    
+}
+
+
+.services-accordion-titulo.open {
+    background-color: #979797;
+    color: #fff;
+}
+
+.services-accordion-titulo:hover{
+color: white;
+background-color: #979797
+}
+ 
+.services-accordion-titulo span.toggle-icon:before {
+    content:"\02795";
+    
+}
+ 
+.services-accordion-titulo.open span.toggle-icon:before {
+    content:"\2796";
+}
+ 
+.services-accordion-titulo span.toggle-icon {
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  .services-accordion-content{
+     
+        display: none;
+        padding: 0px 18px;
+        overflow: auto;
+        background-color: white;    
+  }
+  .services-accordion-content > ul > li{
+     margin-top: 20px; 
+     margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;
+   list-style-type: none;
+  
+  }
+
+  /* Estilos Footer */
+  .container-contact{
+    width: 100%;
+    height: 80px;
+    background-color: #641056;
+    color: white;
+    
+  }
+
+  .container-contact p{
+    padding: 25px 0px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .container-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 35px 0px;
+    background-color: #941B80;
+  }
+
+  .container-footer a{
+      list-style: none;
+  }
+
+  .content-foo{
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+  
+  .content-foo ul  li a{
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 1px;
+    color: white;
+    
+  }
+  .container-footer ul {
+      list-style: none;
+  }
+
+  .content-foo ul li:hover{
+     
+      text-decoration: underline;
+  }
+  .content-foo ul li {
+    margin-bottom: 12px;
+  }
+  .foo-titulo a {
+      font-weight: bold !important;
+    
+  }
+  
+  .content-foo-contact{
+
+    width: 20%;
+    margin-right: 50px;
+  }
+
+  .content-foo-contact .logo-foo {
+
+    width: 200px;
+
+}
+hr{
+   
+    color: white;
+  
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.foo-social-networks img{
+    margin-right: 25px;
+    height: 18px;
+    width: 18px;
+}
+
+.foo-phone a img, .foo-mail a img {
+
+    margin-right: 12px;
+    height: 18px;
+    width: 18px;
+    
+
+}
+.foo-phone p, .foo-mail p {
+
+    color: white;
+    
+
+}
+.foo-phone , .foo-mail {
+
+    display: flex;
+    flex-direction: row;
+    margin: 12px 0;
+
+
+}
+
+/* css preguntas frecuentes */
+
+.frequent-questions-banner{
+    width: 100%;
+    height: 350px;
+    background-image: url(../Assets/FAQ/headBanner-faq.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.frequent-questions-banner h2{
+    color: white;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 100%;
+}
+
+.frequent-questions-tab-container{
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container-navegation{
+    height: 550px;
+    width: 100%;
+    border: 2px solid #941B80;
+    margin-right: 70px;
+}
+
+.container-navegation ul {
+    width: 400px;
+}
+.container-navegation ul .container-navegation h2{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+    background-color: #941B80;
+    margin-bottom: 15px;
+}
+.container-navegation ul :hover {
+
+    background-color: #E8E8E8 !important;
+
+}
+.frequent-questions-navegation{
+    list-style: none;
+    
+}
+
+.frequent-questions-navegation  li{
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0,3s ease-in-out;
+    
+    
+}
+.frequent-questions-navegation li.active{
+
+background-color: #E8E8E8;
+
+}
+
+
+.container-navegation h2{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+    background-color: #941B80;
+    margin-bottom: 15px;
+    padding: 10px 15px
+}
+.container-navegation ul li{
+    font-size: 16px;
+    font-weight: 500;
+    /* cursor: pointer; */
+    padding: 15px 15px;
+}
+.frequent-questions-tab-content{
+    width: 100%;
+    display: none;
+}
+
+.frequent-questions-tab-content h3{
+    font-size: 28px;
+        font-weight: 300;
+        margin: 10px 0;
+        color: #941B80;
+}
+.frequent-questions-tab-content hr{
+    width: 100%;
+    border: 0.5px solid #941B80;
+    margin-bottom: 25px;
+}
+
+.frequent-questions-tab-content p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.frequent-questions-contact{
+    max-width: 1000px;
+        margin: 55px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.frequent-questions-contact h3{
+    
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.frequent-questions-contact p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    line-height: 22px;
+    text-align: center;
+}
+.btn-frequent-questions-contact{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding: 15px 30px;
+    background-color: #641056;
+    border: none;
+}
+

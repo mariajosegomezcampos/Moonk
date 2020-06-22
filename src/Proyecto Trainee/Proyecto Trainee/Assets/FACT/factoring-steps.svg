@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="748px" height="33px" viewBox="0 0 748 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Diseño-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="moonk_producto01" transform="translate(-346.000000, -663.000000)">
+            <g id="Group-3" transform="translate(346.000000, 663.000000)">
+                <line x1="17.2388184" y1="17.5" x2="733.612894" y2="17.5" id="Line-3" stroke="#4F4F4F" stroke-linecap="square"></line>
+                <circle id="Oval" fill="#00A4DC" cx="16.5" cy="16.5" r="16.5"></circle>
+                <text id="1" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="10.6735583" y="24">1</tspan>
+                </text>
+                <circle id="Oval" fill="#0095C7" cx="251.5" cy="16.5" r="16.5"></circle>
+                <text id="2" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="245.673558" y="24">2</tspan>
+                </text>
+                <circle id="Oval" fill="#00759C" cx="495.5" cy="16.5" r="16.5"></circle>
+                <text id="3" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="489.673558" y="24">3</tspan>
+                </text>
+                <circle id="Oval" fill="#005672" cx="731.5" cy="16.5" r="16.5"></circle>
+                <text id="4" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="725.673558" y="24">4</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
